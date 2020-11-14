@@ -55,6 +55,14 @@
 
 ![CPU超频](http://image.joylau.cn/blog/%E8%B6%85%E9%A2%91.png)
 
+Power 显示的是当前 CPU 的功率；
+
+Frequency 显示当前 CPU 的频率；
+
+Temperature 显示当前 CPU 的温度，此温度是内核温度；
+
+Utilization 显示当前 CPU 的占用率。
+
 ![显卡 Metal 得分](http://image.joylau.cn/blog/%E6%98%BE%E5%8D%A1%E5%BE%97%E5%88%86-Metal.png)
 
 ![显卡 OpenCL 得分](http://image.joylau.cn/blog/%E6%98%BE%E5%8D%A1%E5%BE%97%E5%88%86-OpenCL.png)
@@ -91,7 +99,7 @@
 #### BIOS 配置
 在技嘉官网下载最新版 Z390 主板的 BIOS 固件（https://www.gigabyte.cn/Motherboard/Z390-AORUS-PRO-WIFI-rev-10/support#support-dl-driver）并刷入
 
-当前最近版本 **F12j**
+当前最新版本 **F12j**
 进行如下配置：
 
 - Load Optimized Defaults
@@ -281,6 +289,8 @@ EFI
 
 ```
 
+### 工作状态
+目前一切都正常工作，包括声卡，网卡，Wi-Fi，蓝牙，Airdrop，随航，接力，显示分辨率，睡眠，关机，重启
 
 ### 遇到的坑
 1. 我买的主板CPU针脚上有一个针脚弯曲了， 导致有2 个内存插槽无法读取， 如下图
@@ -300,3 +310,10 @@ EFI
 目录中的 `EFI` 和 `EFI_USB` 都是我已经修改好的引导了，可以直接使用，其中 `EFI` 是复制到硬盘上用来引导系统的， `EFI_USB` 是复制到 U 盘上用来进行 U 盘引导的
 
 引导下载地址见： https://github.com/JoyLau/Hackintosh-GIGABYTE-Z390-AORUS-PRO-WIFI-i9-9900K-RX580-BCM94360CD-OpenCore
+
+### 参考资料
+- http://blog.daliansky.net
+- https://www.tonymacx86.com
+- https://github.com/shiruken/hackintosh#prepare-install-media
+- https://www.youtube.com/watch?v=hUMFJjxQO7A
+- https://www.insanelymac.com/forum/topic/337837-glasgoods-macos-mojave-successguide-for-aorus-z390-pro
